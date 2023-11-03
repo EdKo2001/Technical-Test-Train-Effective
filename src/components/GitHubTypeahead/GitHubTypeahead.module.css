@@ -1,0 +1,55 @@
+.github-typeahead {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.selectedUser {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 16px;
+  background-color: #f0f0f0;
+}
+
+.avatarContainer {
+  margin-right: 16px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.usernameLink {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0366d6;
+  margin-bottom: 8px;
+}
+
+.additionalInfo {
+  font-size: 14px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .github-typeahead .github-typeahead {
+    width: 100%;
+  }
+
+  .github-typeahead .user-card img {
+    width: 30px;
+    height: 30px;
+  }
+}
